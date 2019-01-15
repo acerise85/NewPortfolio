@@ -11,61 +11,65 @@
     <!-- Bootstrap Link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-    <!-- Firebase link -->
-    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <!-- JQuery Link -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
+        <!-- Fontawesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
 <body id="bodyContainer">
 
-    <!-- Container for project images -->
-    <div id="projectContainer" class="flipStyle container-fluid mediaSX mediaSM mediaM medaLG">
-        <!-- Project cards with links to live project -->
-        <div class="flip">
-            <div class="flipCard">
-                <div class="flipFront">
-                    <img src="../NewPortfolio/asstets/images/crystal1.jpg" alt="Avatar" style="width:267px;height:250px;">
+    <!-- Nav Bar -->
+    <div class="pos-f-t">
+            
+            <nav class="navbar navbar-dark bg-dark">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </nav>
+          </div>
+          <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                  <ul>
+                    <li><a href="../NewPortfolio/index.html" target="_#" class="navLinks">About Me</a></li>
+                    <li><a href="../NewPortfolio/contact.html" target="_#" class="navLinks">Contact Me</a></li>
+                    <li><a href="../NewPortfolio/projects.html" target="_#" class="navLinks">My Projects</a></li>
+                  </ul>
                 </div>
-                <div class="flipBack" style="width:267px;height:250px;">
-                    <h1><a href="https://acerise85.github.io/unit-4-game/" target="_blank" id="headerColor">Crystal
-                            Guessing Game</a></h1>
-                    <p>The Crystal Guessing Game is a game where the user tries to guess a randomly generated
-                        number by clicking on four crystal images, each with their own random value assigned. After
-                        each round the values of the crystals
-                        are reassigned along with a new number to guess. Are you up to the challenge? Click on the
-                        title above to launch game.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Project cards with links to live project -->
-        <div class="flip" style="width:200px;height:200px;">
-            <div class="flipCard" style="width:200px;height:200px;">
-                <div class="flipFront">
-                    <img src="../NewPortfolio/asstets/images/crystal1.jpg" alt="Avatar" style="width:267px;height:250px;">
-                </div>
-                <div class="flipBack" style="width:200px;height:200px;">
-                    <h1><a href="https://acerise85.github.io/unit-4-game/" target="_blank">Crystal Guessing Game</a></h1>
-                    <p>Architect & Engineer</p>
-                </div>
-            </div>
-        </div>
+              </div>
 
-        <!-- Project cards with links to live project -->
-        <div class="flip">
-            <div class="flipCard">
-                <div class="flipFront">
-                    <img src="../NewPortfolio/asstets/images/crystal1.jpg" alt="Avatar" style="width:267px;height:250px;">
-                </div>
-                <div class="flipBack">
-                    <h1><a href="https://acerise85.github.io/unit-4-game/" target="_blank" id="headerColor">Crystal
-                            Guessing Game</a></h1>
-                    <p>Architect & Engineer</p>
-                </div>
-            </div>
+    <!-- Container for project images -->
+    <div id="projectContainer" class="wrapper">
+        <!-- Picture -->
+
+        <img src="../../HW/NewPortfolio/asstets/images/me.jpg" id="me">
+
+        <!-- Projects Buttons -->
+
+        <div class="projects">
+            <button type="button" class="btn btn-outline-primary" id="projectLink" >Crystal Guessing Game</button>
+            <button type="button" class="btn btn-outline-primary" id="projectLink" >The Wizard of Oz Trivia Game</button>
+            <button type="button" class="btn btn-outline-primary" id="projectLink" >Train Schedule</button>
+            <button type="button" class="btn btn-outline-primary" id="projectLink" >Giphy Fun</button>
+            <button type="button" class="btn btn-outline-primary" id="projectLink" >Nice! Now I can Eat</button>
         </div>
+        <!-- Social Media Buttons -->
+        
+            <div class="socialMedia">
+                <p>Linked In Button</p>
+            </div>
+            
+            <div class="socialMedia">
+            <img src="../NewPortfolio/asstets/images/GitHub-Mark-120px-plus.jpg"><a href="https://github.com/acerise85">Github Link</a>
+            </div>
+        
+
     </div>
+
     <!-- <script src="../NewPortfolio/asstets/javascript/portfolio.js"></script> -->
 </body>
 

@@ -30,13 +30,12 @@
   }
 
   /* social media buttons */
-  .socialMedia{
-    
-    margin: 5px;
-    
-    
-    
+  #socialMedia{
+    width: 30%;
+    background-color: blue;
+    opacity: 0.4;  
   }
+  
 /* Links to projects */
   .projects{
     
@@ -46,11 +45,15 @@
 
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-column-gap: 3px;
+  grid-template-rows: 1fr;
+  grid-column-gap: 1px;
   grid-row-gap: 1px;
-  grid-row: 100px(20px 20px);
+  grid-row: 100px 20px 20px;
+  grid-template-areas:
+  "me . projects"
+  "socialMl";
   margin: 3px;
-  background-color: brown;
+  
 }
 /* Links in nav bar */
 .navLinks{

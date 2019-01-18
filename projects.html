@@ -11,60 +11,67 @@
     <!-- Bootstrap Link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
     <!-- JQuery Link -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-        <!-- Fontawesome -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
 </head>
 
 <body id="bodyContainer">
 
     <!-- Nav Bar -->
     <div class="pos-f-t">
-            
-            <nav class="navbar navbar-dark bg-dark">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-            </nav>
-          </div>
-          <div class="collapse" id="navbarToggleExternalContent">
-                <div class="bg-dark p-4">
-                  <ul>
-                    <li><a href="../NewPortfolio/index.html" target="_#" class="navLinks">About Me</a></li>
-                    <li><a href="../NewPortfolio/contact.html" target="_#" class="navLinks">Contact Me</a></li>
-                    <li><a href="../NewPortfolio/projects.html" target="_#" class="navLinks">My Projects</a></li>
-                  </ul>
-                </div>
-              </div>
+            </button>
+        </nav>
+    </div>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <ul>
+                <li><a href="../NewPortfolio/index.html" target="_#" class="navLinks">About Me</a></li>
+                <li><a href="../NewPortfolio/contact.html" target="_#" class="navLinks">Contact Me</a></li>
+                <li><a href="../NewPortfolio/projects.html" target="_#" class="navLinks">My Projects</a></li>
+            </ul>
+        </div>
+    </div>
 
     <!-- Container for project images -->
     <div id="projectContainer" class="wrapper">
         <!-- Picture -->
         <div>
-        <img src="../../HW/NewPortfolio/asstets/images/me.jpg" id="me">
+            <img src="../../HW/NewPortfolio/asstets/images/me.jpg" id="me">
+            <!-- Social Media Buttons -->
+            <div>
+                <a href="https://www.linkedin.com/in/aimes-cerise-3a36577a" target="_#" id="socialMedia"><img src="../NewPortfolio/asstets/images/LinkedInBigger.jpg" ></a>
+            </div>
+            <div style= "margin-top: 10px">
+                <a href="https://github.com/acerise85" target="_#" id="socialMediag"><img src="../NewPortfolio/asstets/images/GitHub-Mark-64px.jpg"></a>      
+            </div>
         </div>
         <!-- Projects Buttons -->
-        
-        <div class="projects">
-            <button type="button" class="btn btn-outline-primary" id="projectLink" >Crystal Guessing Game</button>
-            <button type="button" class="btn btn-outline-primary" id="projectLink" >The Wizard of Oz Trivia Game</button>
-            <button type="button" class="btn btn-outline-primary" id="projectLink" >Train Schedule</button>
-            <button type="button" class="btn btn-outline-primary" id="projectLink" >Giphy Fun</button>
-            <button type="button" class="btn btn-outline-primary" id="projectLink" >Nice! Now I can Eat</button>
+
+        <div>
+            <img src="../NewPortfolio/asstets/images/crystal1.jpg" id="projectPics"><button type="button" class="btn btn-outline-primary" id="projectLink">Crystal Guessing Game</button>
+            <img src="../NewPortfolio/asstets/images/Wizard.jpg" id="projectPics"><button type="button" class="btn btn-outline-primary" id="projectLink">The Wizard of Oz Trivia Game</button>
+            <img src="../NewPortfolio/asstets/images/train.jpg" id="projectPics"><button type="button" class="btn btn-outline-primary" id="projectLink">Train Schedule</button>
+            <img src="../NewPortfolio/asstets/images/Giphy.gif" id="projectPics"><button type="button" class="btn btn-outline-primary" id="projectLink">Giphy Fun</button>
+            <img src="../NewPortfolio/asstets/images/Nice.jpg" id="projectPics"><button type="button" class="btn btn-outline-primary" id="projectLink">Nice! Now I can Eat</button>
         </div>
-        <!-- Social Media Buttons -->
-                                        <div >
-                                            <p>Linked In Button</p>
-                                        <img src="../NewPortfolio/asstets/images/GitHub-Mark-32px.jpg"><button type="button" class="btn btn-outline-primary" href="https://github.com/acerise85" id="socialMedia" >Github Link</button>
-                                        </div>
-        
-        
-        
+
+
+
 
     </div>
 

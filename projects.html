@@ -23,29 +23,34 @@
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
+    <!-- Materialize -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </head>
 
 <body id="bodyContainer">
-
     <!-- Nav Bar -->
-    <div class="pos-f-t">
-
-        <nav class="navbar navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-                aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </nav>
-    </div>
-    <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-            <ul>
-                <li><a href="../NewPortfolio/index.html" target="_#" class="navLinks">About Me</a></li>
-                <li><a href="../NewPortfolio/contact.html" target="_#" class="navLinks">Contact Me</a></li>
-                <li><a href="../NewPortfolio/projects.html" target="_#" class="navLinks">My Projects</a></li>
+    <nav id="header">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo" id="header">Aimes Cerise</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" id="header">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="../NewPortfolio/index.html" id="header">About</a></li>
+                <li><a href="../NewPortfolio/contact.html" id="header">Contact</a></li>
+                <li><a href="../NewPortfolio/projects.html" id="header">Projects</a></li>
             </ul>
         </div>
-    </div>
+    </nav>
+    <!-- Mobile Nav Bar -->
+    <ul class="sidenav navLinks" id="mobile-demo">
+        <li><a href="../NewPortfolio/index.html" id="header">About</a></li>
+        <li><a href="../NewPortfolio/contact.html" id="header">Contact</a></li>
+        <li><a href="../NewPortfolio/projects.html" id="header">Projects</a></li>
+    </ul>
 
     <!-- Container for project images -->
     <div id="projectContainer" class="wrapper">
@@ -54,28 +59,36 @@
             <img src="../../HW/NewPortfolio/asstets/images/me.jpg" id="me">
             <!-- Social Media Buttons -->
             <div>
-                <a href="https://www.linkedin.com/in/aimes-cerise-3a36577a" target="_#" id="socialMedia"><img src="../NewPortfolio/asstets/images/LinkedInBigger.jpg" ></a>
+                <a href="https://www.linkedin.com/in/aimes-cerise-3a36577a" target="_#" id="socialMedia"><img src="../NewPortfolio/asstets/images/LinkedInBigger.jpg"
+                        class="lShadow"></a>
             </div>
-            <div style= "margin-top: 10px">
-                <a href="https://github.com/acerise85" target="_#" id="socialMediag"><img src="../NewPortfolio/asstets/images/GitHub-Mark-64px.jpg"></a>      
+            <div style="margin-top: 10px">
+                <a href="https://github.com/acerise85" target="_#" id="socialMediag"><img src="../NewPortfolio/asstets/images/GitHub-Mark-64px.jpg"
+                        class="stylish" style="margin-right: -5; margin-left: 65px"></a>
             </div>
         </div>
         <!-- Projects Buttons -->
-
         <div>
-            <img src="../NewPortfolio/asstets/images/crystal1.jpg" id="projectPics"><button type="button" class="btn btn-outline-primary" id="projectLink">Crystal Guessing Game</button>
-            <img src="../NewPortfolio/asstets/images/Wizard.jpg" id="projectPics"><button type="button" class="btn btn-outline-primary" id="projectLink">The Wizard of Oz Trivia Game</button>
-            <img src="../NewPortfolio/asstets/images/train.jpg" id="projectPics"><button type="button" class="btn btn-outline-primary" id="projectLink">Train Schedule</button>
-            <img src="../NewPortfolio/asstets/images/Giphy.gif" id="projectPics"><button type="button" class="btn btn-outline-primary" id="projectLink">Giphy Fun</button>
-            <img src="../NewPortfolio/asstets/images/Nice.jpg" id="projectPics"><button type="button" class="btn btn-outline-primary" id="projectLink">Nice! Now I can Eat</button>
+            <img src="../NewPortfolio/asstets/images/crystal1.jpg" id="projectPics"><button type="button" class="btn btn-outline-primary"
+                id="projectLink"><a href="https://acerise85.github.io/unit-4-game/" target="_#"  style="color:aliceblue">Crystal Guessing Game</a></button>
+            <img src="../NewPortfolio/asstets/images/Wizard.jpg" id="projectPics"><button type="button" class="btn btn-outline-primary"
+                id="projectLink">The Wizard of Oz Trivia Game</button>
+            <img src="../NewPortfolio/asstets/images/train.jpg" id="projectPics"><button type="button" class="btn btn-outline-primary"
+                id="projectLink">Train Schedule</button>
+            <img src="../NewPortfolio/asstets/images/Giphy.gif" id="projectPics"><button type="button" class="btn btn-outline-primary"
+                id="projectLink">Giphy Fun</button>
+            <img src="../NewPortfolio/asstets/images/Nice.jpg" id="projectPics"><button type="button" class="btn btn-outline-primary"
+                id="projectLink">Nice! Now I can Eat</button>
+        </div><!---Project link button closing div-->
+
+    </div><!---Project container closing div-->
+
+    <script src="../NewPortfolio/asstets/javascript/portfolio.js"></script>
+    <footer>
+        <div class="container">
+            Copyright &copy;
         </div>
-
-
-
-
-    </div>
-
-    <!-- <script src="../NewPortfolio/asstets/javascript/portfolio.js"></script> -->
+    </footer>
 </body>
 
 </html>

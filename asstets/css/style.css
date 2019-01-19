@@ -31,12 +31,13 @@
   }
 
   /* social media buttons */
-  #socialMedia, #socialMediag{
+  #socialMedia,  #socialMediag{
     width: 30%;
     margin: 11%;
+    
   }
-  
 
+ 
 /* Wrapper for grid layout */
 .wrapper{
 
@@ -54,9 +55,8 @@
 /* Links in nav bar */
 .navLinks{
 
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: blanchedalmond;
-  font-size: 25px;
+ background-image: url("../images/grey_wash_wall.png");
+ opacity: 0.9;
 }
 /* project links */
 #projectLink{
@@ -65,11 +65,10 @@
   height: 60px;
   background-color: blue;
   opacity: 0.4;
-  margin: 6px 0px 0px 0px;
+  margin: 6px 0px 6px 0px;
   padding: 0%;
-  position: relative;
   font-size: 25px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* project pictures */
@@ -82,8 +81,36 @@
   z-index: 9;
 }
 
+/* Git Hub Icon Style */
+.stylish{display:block;width:50px;height:50px;border-radius:55px;border:4px double #ccc;font-size:18px;color:#666;line-height:90px;text-align:center;text-decoration:none;text-shadow:0 1px 0 #fff;background:#ddd}.stylish:hover{border:4px double #bbb;color:#aaa;text-decoration:none;background:#e6e6e6 }
 
+/* Linked in Style */
+.lShadow{
 
+  box-shadow: 2px 2px 3px darkblue;
+}
 
+/* Footer */
+footer{
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #fff;
+  background-image: url("../images/grey_wash_wall.png");
+  text-align: center;
+  height: 50px;
+}
 
-  
+/* Header */
+
+#header{
+
+    background-image: url("../images/grey_wash_wall.png");
+    height: 50px;
+    text-align: center;
+    color: rgb(3, 3, 66);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    ;
+
+}
+

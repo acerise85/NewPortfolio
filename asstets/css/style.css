@@ -364,7 +364,7 @@ footer{
     }
   }
 
-    @media (min-width: 769px) and (max-width: 1275px){
+    @media (min-width: 769px) and (max-width: 1240px){
 
       #projectContainer{
         height: 500px;
@@ -390,6 +390,16 @@ footer{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       }
       
+       /* my picture */
+    #me{
+
+      width: 120px;
+      height: 200px;
+      border-color: darkgreen;
+      border-width: 3px;
+      border-style: groove;
+      margin: 10px;
+    }
       /* About Me Page Style */
   
       .aboutMe{

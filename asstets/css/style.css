@@ -114,3 +114,269 @@ footer{
 
 }
 
+
+/* About Me Page Style */
+
+.aboutMe{
+    width: 100%;
+    height: 370px;
+    background-color: blue;
+    opacity: 0.4;
+    margin: 6px 0px 6px 0px;
+    padding: 0%;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+  }
+
+  /* Contact Me Style */
+
+  .contactMe{
+    width: 100%;
+    height: 300px;
+    background-color: blue;
+    opacity: 0.4;
+    margin: 6px 0px 6px 0px;
+    padding: 0%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+  }
+
+  /* media quieries */
+  @media screen and (min-width: 300px) and (max-width: 573px) {
+
+    /* Container for projects, picture and social media buttons */
+    #projectContainer{
+      height: 500px;
+      width: 100%;
+      border-color: darkgreen;
+      border-width: 3px;
+      border-style: groove;
+      padding: 20px;
+      margin: 0%;
+      float: left;
+      
+      background-image: url("../images/grey_wash_wall.png");
+    }
+     /* project links */
+     #projectLink{
+
+      width: 100%;
+      height: 60px;
+      background-color: blue;
+      opacity: 0.4;
+      margin: 6px 0px 6px 0px;
+      padding: 0%;
+      font-size: 11px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    /* About Me Page Style */
+
+    .aboutMe{
+    width: 100%;
+    height: 370px;
+    background-color: blue;
+    opacity: 0.4;
+    margin:  0;
+    padding: 0%;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+  }
+    #bodyContainer {
+
+      background-image: url("../images/dark-paths.png");
+      margin: 0 auto;
+    }
+    
+    .contactMe{
+      width: 100%;
+      height: 300px;
+      background-color: blue;
+      opacity: 0.4;
+      margin:  6px 0px 6px 0px;
+      padding: 0%;
+      font-size: 14px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: azure;
+    }
+  }
+
+  @media screen and (min-width: 574px) and (max-width:599px){
+  #projectContainer {
+      height: 500px;
+      width: auto;
+      border-color: darkgreen;
+      border-width: 3px;
+      border-style: groove;
+      padding: 18px;
+      margin: 0;
+      background-image: url(../images/grey_wash_wall.png);
+      float: left;
+  }
+   /* project links */
+   #projectLink{
+
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+    opacity: 0.4;
+    margin: 6px 0px 6px 0px;
+    padding: 0%;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* About Me Page Style */
+
+  .aboutMe{
+  width: 100%;
+  height: 370px;
+  background-color: blue;
+  opacity: 0.4;
+  margin:  6px 0px 6px 0px;
+  padding: 0%;
+  font-size: 13px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: azure;
+}
+  #bodyContainer {
+
+    background-image: url("../images/dark-paths.png");
+    margin: 0 auto;
+  }
+  
+  .contactMe{
+    width: 100%;
+    height: 300px;
+    background-color: blue;
+    opacity: 0.4;
+    margin:  6px 0px 6px 0px;
+    padding: 0%;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+  }
+}
+  @media (min-width: 600px) and (max-width: 768px){
+
+    #projectContainer{
+      height: 500px;
+      width: auto; 
+      border-color: darkgreen;
+      border-width: 3px;
+      border-style: groove;
+      padding: 18px;
+      margin: 0 auto;
+      float: left;
+      background-image: url("../images/grey_wash_wall.png");
+    }
+    /* project links */
+    #projectLink{
+
+      width: 100%;
+      height: 60px;
+      background-color: blue;
+      opacity: 0.4;
+      margin: 6px 0px 6px 0px;
+      padding: 0%;
+      font-size: 19px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    /* About Me Page Style */
+
+    .aboutMe{
+    width: 100%;
+    height: 370px;
+    background-color: blue;
+    opacity: 0.4;
+    margin:  6px 0px 6px 0px;
+    padding: 0%;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+  }
+    #bodyContainer {
+
+      background-image: url("../images/dark-paths.png");
+      margin: 0 auto;
+    }
+    
+    .contactMe{
+      width: 100%;
+      height: 300px;
+      background-color: blue;
+      opacity: 0.4;
+      margin:  6px 0px 6px 0px;
+      padding: 0%;
+      font-size: 18px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: azure;
+    }
+  }
+
+    @media (min-width: 769px) and (max-width: 1275px){
+
+      #projectContainer{
+        height: 500px;
+        width: 100%;
+        border-color: darkgreen;
+        border-width: 3px;
+        border-style: groove;
+        padding: 18px;
+        margin: 0 auto;
+        float: left;
+        background-image: url("../images/grey_wash_wall.png");
+      }
+      /* project links */
+      #projectLink{
+  
+        width: 100%;
+        height: 60px;
+        background-color: blue;
+        opacity: 0.4;
+        margin: 6px 0px 6px 0px;
+        padding: 0%;
+        font-size: 19px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      
+      /* About Me Page Style */
+  
+      .aboutMe{
+      width: 100%;
+      height: 370px;
+      background-color: blue;
+      opacity: 0.4;
+      margin:  6px 0px 6px 0px;
+      padding: 0%;
+      font-size: 15px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: azure;
+      float: left;
+    }
+      #bodyContainer {
+  
+        background-image: url("../images/dark-paths.png");
+        margin: 0 auto;
+      }
+      
+      .contactMe{
+        width: 100%;
+        height: 300px;
+        background-color: blue;
+        opacity: 0.4;
+        margin:  6px 0px 6px 0px;
+        padding: 0%;
+        font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: azure;
+        float: left;
+      }
+
+    }
+    
+  

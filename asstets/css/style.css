@@ -146,6 +146,16 @@ footer{
   /* media quieries */
   @media screen and (min-width: 300px) and (max-width: 499px) {
 
+    /* my picture */
+    #me{
+
+    width: 120px;
+    height: 200px;
+    border-color: darkgreen;
+    border-width: 3px;
+    border-style: groove;
+    margin: 10px;
+  }
     /* Container for projects, picture and social media buttons */
     #projectContainer{
       height: 500px;

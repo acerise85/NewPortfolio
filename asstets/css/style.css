@@ -9,7 +9,7 @@
   }
 /* Container for projects, picture and social media buttons */
   #projectContainer{
-    height: 550px;
+    height: auto;
     width: 950px; 
     border-color: darkgreen;
     border-width: 3px;
@@ -144,8 +144,18 @@ footer{
   }
 
   /* media quieries */
-  @media screen and (min-width: 300px) and (max-width: 499px) {
+  @media screen and (min-width: 100px) and (max-width: 499px) {
 
+    .wrapper{
+
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-column-gap: 1px;
+      grid-row-gap: 5px;
+      grid-row: 100px;
+      
+    }
     /* my picture */
     #me{
 
@@ -158,7 +168,7 @@ footer{
   }
     /* Container for projects, picture and social media buttons */
     #projectContainer{
-      height: 500px;
+      height: 100%;
       width: 100%;
       border-color: darkgreen;
       border-width: 3px;
@@ -224,7 +234,7 @@ footer{
 
   @media screen and (min-width: 500px) and (max-width:599px){
   #projectContainer {
-      height: 500px;
+      height: auto;
       width: auto;
       border-color: darkgreen;
       border-width: 3px;
@@ -299,7 +309,7 @@ footer{
   @media (min-width: 600px) and (max-width: 768px){
 
     #projectContainer{
-      height: 500px;
+      height: auto;
       width: auto; 
       border-color: darkgreen;
       border-width: 3px;
